@@ -1,0 +1,17 @@
+.number-container {
+    display: flex;
+    flex-direction: column;
+}
+
+span.number {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #3D3D4D;
+}
+
+span.label {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #6C6C80;
+}

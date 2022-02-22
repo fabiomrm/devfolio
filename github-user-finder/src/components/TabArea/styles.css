@@ -1,0 +1,40 @@
+.my-tabs {
+    margin:0;
+    padding:0;
+}
+
+.my-tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    
+    list-style-type: none;
+    
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #A0ACB2;
+}
+
+.my-tab {
+    padding: 0 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.my-tab.is-selected {
+    border-bottom: 0.146rem solid #F25D27;
+    color: #3D3D4C;
+}
+
+@media (max-width: 1170px) {
+    .my-tabs {
+        margin-top: 1rem;
+    }
+}
+
+
+

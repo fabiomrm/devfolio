@@ -1,0 +1,88 @@
+.repo-card {
+    max-width: 16rem;
+    height: 10.8rem;
+    background-color: #FFF;
+    box-shadow: 0.122rem 0.122rem 0.163rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.313rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+.repo-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+.repo-text-section h4 {
+    position: relative;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    color: #3D3D4D;
+    margin: 0 0 .5rem 0;
+}
+
+.repo-text-section > h4::before {
+    content: "1";
+    position: absolute;
+    left: -1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    color: #BFBFCC;
+}
+
+.repo-text-section > span:first-of-type {
+    margin: 0rem 0 1.5rem 0;
+   
+}
+
+.repo-text-section > span {
+    font-weigth: 400;
+    font-size: 0.875rem;
+    color: #A8A8B3;
+}
+
+.repo-star-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.repo-star-section > div > span{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #787880;
+    margin-left: .5rem;
+}
+
+div.arrow-container {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.063rem solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.313rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+div.arrow-container:hover {
+    transform: scale(1.05);
+    background: #F6F6F6;
+}
+
+@media (max-width: 1170px) {
+    .repo-card {
+        width: 16rem;
+    }
+}

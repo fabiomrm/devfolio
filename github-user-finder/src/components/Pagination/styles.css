@@ -1,0 +1,25 @@
+.pagination-component {
+    margin-top: 0.3rem;
+}
+
+.pagination-component button + button {
+    margin-left: 0.625rem; 
+}
+
+.pagination-component button {
+    border: 0;
+    color: #3D3D4D;
+    font-size:1rem;
+    border: 0.06rem solid #F1972C;
+    padding: .5rem .8rem;
+    cursor: pointer;
+    border-radius: 0.313rem;
+}
+
+@media (max-width: 1170px) {
+    .pagination-component {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+.no-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;   
+}
+
+.no-content-container h1 {
+    color: #32264D;
+    font-size: 2.25rem;
+}
+
+.no-content-container p {
+    color: #6A6180;
+    font-size: 1rem;
+}

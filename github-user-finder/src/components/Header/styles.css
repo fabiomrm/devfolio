@@ -1,0 +1,21 @@
+header {
+    height: 5rem;
+    background: #41414C;
+    margin:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+.logo-container {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFF;
+}

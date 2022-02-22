@@ -1,0 +1,48 @@
+.card {
+    max-width: 22rem;
+    height: 27rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.122rem 0.122rem 0.163rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.313rem;
+    padding: 1rem 2rem;
+}
+
+.profile-picture {
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: 100%;
+    border: 0.25rem solid #F1972C;
+}
+
+.text-section {
+    text-align: center;
+    color: #5A5A66;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin:1.5rem 0 0.688rem 0;
+}
+
+h3, p {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+h3 {
+    margin:0;
+}
+
+p {
+    margin: 1.3rem 0;
+}
+
+.number-section {
+    display: flex;
+    gap: 2rem;
+    
+}

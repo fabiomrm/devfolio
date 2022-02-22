@@ -19,7 +19,8 @@ export const FilterArea = () => {
             ctx.setUserRepos(responseRepo.data);
 
         } catch(err) {
-            console.error(err);
+            alert(`Usuário: ${searchValue} não encontrado.`);
+
         } finally {
             setSearchValue("");
         }
